@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // pending,    - success
+            // - reject
+
+
+const childPromise = new Promise((resolve, reject) => {
+
+    const parentDecision = false;
+
+    if (parentDecision){
+        resolve('I got Ice-Cream');
+    }else{
+        reject("I didn't get Ice-Cream");
+    }
+
+})
+
+
+childPromise
+.then(result => {
+    console.log(result);
+})
+.catch(error => {
+    console.log(error);
+})
+    </script>
+</body>
+</html>
