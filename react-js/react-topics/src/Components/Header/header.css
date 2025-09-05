@@ -1,0 +1,36 @@
+li{
+    list-style-type: none;
+}
+.nav-contact-details{
+    width: 100%;
+    padding: 8px 32px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-contact-details > li{
+    font-size: 24px;
+
+}
+header{
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+header > .logo > img{
+    max-height: 70px;
+}
+.main-menu > ul{
+    display: flex;
+}
+
+.main-menu > ul > li{
+    margin-left: 32px;
+    font-size: 24px;
+}
