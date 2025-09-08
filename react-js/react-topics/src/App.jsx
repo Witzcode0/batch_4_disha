@@ -1,10 +1,14 @@
-import Contact from './Components/Header/Contact.jsx'
-import Navbar from './Components/Header/Nav.jsx';
+// Function components
+import Contact from "./Functioncompo/Header/Contact.jsx"
+import Navbar from "./Functioncompo/Header/Nav.jsx";
+import Danger from "./Functioncompo/Buttons/Danger.jsx"
+import Success from "./Functioncompo/Buttons/Success.jsx"
+import Genralbtn from "./Functioncompo/Buttons/Genralbtn.jsx"
 
+// Class Components
+import Card from "./ClassCompo/Card.jsx";
 
-import Danger from './Components/Buttons/Danger.jsx'
-import Success from './Components/Buttons/Success.jsx'
-
+// App style
 import "./App.css";
 
 
@@ -15,8 +19,12 @@ function App() {
     <>
       <Contact/>
       <Navbar/>
-      <Danger/>
+      <Card />
+      {/* <Danger/>
       <Success/>
+      <Genralbtn name="Button-1"/>
+      <Genralbtn name="Button-2"/>
+      <Genralbtn name="Button-3"/> */}
     </>
   )
 }
