@@ -1,7 +1,9 @@
 import Form from "./Form"
 import {Mounting} from "./Mounting"
+import { UEffect, Post} from "./UEffect"
 import { UnmountingClassExample, UnmountingFunctionExample } from "./Unmounting"
 import { Updating, UpdatingFunctionExample } from "./Updating"
+import Ustate from "./Ustate"
 
 function App() {
 
@@ -13,7 +15,12 @@ function App() {
       {/* <UnmountingClassExample />
       <UnmountingFunctionExample /> */}
 
-      <Form />
+      {/* <Form /> */}
+
+      <Ustate/>
+      <hr />
+      <UEffect/>
+      <Post postId = "1"/>
     </>
   )
 }
