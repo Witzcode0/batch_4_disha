@@ -1,0 +1,5 @@
+createContext
+
+createContext.Provider - provide value
+
+variable = useContext(createContext)
